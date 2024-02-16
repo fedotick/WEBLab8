@@ -1,0 +1,167 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(122, 123, 125);
+}
+
+body, p, h3, h4 {
+    margin: 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin: 34px 28px 0;
+    width: 250px;
+    height: 460px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);;
+    background-color: rgb(255, 255, 255);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.city {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.main-info {
+    margin-top: 196px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.current-temperature {
+    width: 60%;
+    margin-right: 4%;
+    display: inline-block;
+    font-size: 76px;
+    text-align: right;
+}
+
+.day-temperature {
+    width: 36%;
+    height: 100%;
+    display: inline-block;
+    text-align: left;
+}
+
+.weather-condition {
+    margin-top: 17px;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.temperature {
+    margin-top: 3px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: rgb(107, 107, 107);
+}
+
+.temperature span {
+    font-size: 12px;
+}
+
+.temperature p {
+    font-weight: 400;
+    font-size: 11px;
+}
+
+.additional-info {
+    height: 30px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-detail {
+    width: 31%;
+}
+
+.weather-detail p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(107, 107, 107);
+}
+
+.weather-detail h3 {
+    font-size: 9px;
+    font-weight: 400;
+    color: rgb(185, 185, 185);
+}
+
+.vertical-line {
+    width: 1px;
+    height: 75%;
+    background-color: rgb(242, 242, 242);
+}
+
+.horizontal-line {
+    width: 100%;
+    height: 1px;
+    margin-top: 28px;
+    background-color: rgb(242, 242, 242);
+}
+
+.scrolling-line {
+    margin-top: 14px;
+    display: flex;
+    overflow-x: scroll;
+    white-space: nowrap;
+    color: rgb(107, 107, 107);
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+}
+
+.scrolling-line::-webkit-scrollbar {
+    width: 12px;
+}
+
+.scrolling-line::-webkit-scrollbar-track {
+    background-color: transparent; 
+}
+
+.scrolling-line::-webkit-scrollbar-thumb {
+    background-color: transparent; 
+}
+
+.temperature-clock {
+    min-width: 40px;
+    margin: 0 5px;
+}
+
+.temperature-clock span {
+    font-size: 16px;
+}
+
+.temperature-clock p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.temperature-clock h4 {
+    margin-top: 12px;
+    font-size: 10px;
+    font-weight: 400;
+}
