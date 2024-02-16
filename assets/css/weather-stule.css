@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    background-color: rgb(122, 123, 125);
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
