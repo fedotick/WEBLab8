@@ -1,0 +1,28 @@
+body {
+    background: radial-gradient(circle, rgb(129, 15, 48), rgb(80, 9, 34));
+}
+
+.group-composition {
+    margin-top: 50px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.group-composition h1 {
+    margin: 0 0 10px 5px;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    color: rgb(255, 255, 255)
+}
+
+.title {
+    width: 100%;
+}
+
+.table-1 {
+    margin: 15px 5px;
+}
