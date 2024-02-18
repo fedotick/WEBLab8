@@ -25,7 +25,6 @@
 
 .card:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
 }
 
 .city {
@@ -162,4 +161,12 @@
 
 .sunny {
     background: radial-gradient(circle at 100% 0%, rgb(245, 187, 50), rgb(240, 240, 240) 50%);
+}
+
+.haze {
+    background: radial-gradient(circle at 100% 0%, rgb(178, 179, 181), rgb(240, 240, 240) 50%);
+}
+
+.snow {
+    background: radial-gradient(circle at 100% 0%, rgb(165, 209, 235), rgb(240, 240, 240) 50%);
 }
