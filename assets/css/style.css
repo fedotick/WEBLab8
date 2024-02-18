@@ -42,6 +42,7 @@ header {
 }
 
 .button-1 {
+    font-family: "Roboto", sans-serif;
     display: flex;
     align-items: center;
     padding: 20px;

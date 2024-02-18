@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather</title>
     <link rel="shortcut icon" href="../assets/images/logo-white.png" />
+    <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/weather-stule.css">
     <link rel="stylesheet" href="../assets/css/weather-card.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,167 +14,195 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <body>
-    <div class="cards">
-        <div class="card">
-            <div class="city">
-                Chisinau
+    <header>
+        <div class="content">
+            <div class="logo">
+                <a href="../index.html">
+                    <img width="50px" src="../assets/images/logo-white.png" alt="">
+                </a>
             </div>
-            <div class="main-info">
-                <div class="current-temperature">20°</div>
-                <div class="day-temperature">
-                    <div class="weather-condition">Sunny</div>
-                    <div class="temperature">
-                        <span class="material-symbols-outlined">
-                            thermometer 
-                        </span>
-                        <p>27°C</p>
+            <div class="tasks">
+                <a class="button-1 active" href="">Task 1</a>
+                <a class="button-1" href="composition-of-the-groups-of-the-world-сhampionship-2022.html">Task 2</a>
+                <a class="button-1" href="https://fedotick.github.io/BMWM8/" target="_blank" rel="noopener noreferrer">Task 3</a>
+            </div>
+        </div>
+    </header>
+    <div class="content center">
+        <div class="cards">
+            <div class="card">
+                <div class="city">
+                    Chisinau
+                </div>
+                <div class="main-info">
+                    <div class="current-temperature">20°</div>
+                    <div class="day-temperature">
+                        <div class="weather-condition">Sunny</div>
+                        <div class="temperature">
+                            <span class="material-symbols-outlined">
+                                thermometer 
+                            </span>
+                            <p>27°C</p>
+                        </div>
+                        <div class="temperature">
+                            <span class="material-symbols-outlined">thermometer</span>
+                            <p>20°C</p>
+                        </div>
                     </div>
-                    <div class="temperature">
-                        <span class="material-symbols-outlined">thermometer</span>
-                        <p>20°C</p>
+                </div>
+                <div class="additional-info">
+                    <div class="weather-detail">
+                        <p>68%</p>
+                        <h3>Humidity</h3>
+                    </div>
+                    <div class="vertical-line"></div>
+                    <div class="weather-detail">
+                        <p>6 mi</p>
+                        <h3>Visibility</h3>
+                    </div>
+                    <div class="vertical-line"></div>
+                    <div class="weather-detail">
+                        <p>Low 0</p>
+                        <h3>UV Index</h3>
                     </div>
                 </div>
-            </div>
-            <div class="additional-info">
-                <div class="weather-detail">
-                    <p>68%</p>
-                    <h3>Humidity</h3>
-                </div>
-                <div class="vertical-line"></div>
-                <div class="weather-detail">
-                    <p>6 mi</p>
-                    <h3>Visibility</h3>
-                </div>
-                <div class="vertical-line"></div>
-                <div class="weather-detail">
-                    <p>Low 0</p>
-                    <h3>UV Index</h3>
-                </div>
-            </div>
-            <div class="horizontal-line"></div>
-            <div class="scrolling-line">
-                <div class="temperature-clock">
-                    <span class="material-symbols-outlined">cloud</span>
-                    <p>+20°</p>
-                    <h4>00:00</h4>
-                </div>
-                <div class="temperature-clock">
-                    <span class="material-symbols-outlined">cloud</span>
-                    <p>+20°</p>
-                    <h4>01:00</h4>
-                </div>
-                <div class="temperature-clock">
-                    <span class="material-symbols-outlined">cloud</span>
-                    <p>+20°</p>
-                    <h4>02:00</h4>
-                </div>
-                <div class="temperature-clock">
-                    <span class="material-symbols-outlined">cloud</span>
-                    <p>+20°</p>
-                    <h4>03:00</h4>
-                </div>
-                <div class="temperature-clock">
-                    <span class="material-symbols-outlined">cloud</span>
-                    <p>+20°</p>
-                    <h4>04:00</h4>
-                </div>
-                <div class="temperature-clock">
-                    <span class="material-symbols-outlined">cloud</span>
-                    <p>+20°</p>
-                    <h4>05:00</h4>
-                </div>
-                <div class="temperature-clock">
-                    <span class="material-symbols-outlined">cloud</span>
-                    <p>+20°</p>
-                    <h4>06:00</h4>
-                </div>
-                <div class="temperature-clock">
-                    <span class="material-symbols-outlined">cloud</span>
-                    <p>+20°</p>
-                    <h4>07:00</h4>
-                </div>
-                <div class="temperature-clock">
-                    <span class="material-symbols-outlined">cloud</span>
-                    <p>+20°</p>
-                    <h4>08:00</h4>
-                </div>
-                <div class="temperature-clock">
-                    <span class="material-symbols-outlined">cloud</span>
-                    <p>+20°</p>
-                    <h4>09:00</h4>
-                </div>
-                <div class="temperature-clock">
-                    <span class="material-symbols-outlined">cloud</span>
-                    <p>+20°</p>
-                    <h4>10:00</h4>
-                </div>
-                <div class="temperature-clock">
-                    <span class="material-symbols-outlined">cloud</span>
-                    <p>+20°</p>
-                    <h4>11:00</h4>
-                </div>
-                <div class="temperature-clock">
-                    <span class="material-symbols-outlined">cloud</span>
-                    <p>+20°</p>
-                    <h4>12:00</h4>
-                </div>
-                <div class="temperature-clock">
-                    <span class="material-symbols-outlined">cloud</span>
-                    <p>+20°</p>
-                    <h4>13:00</h4>
-                </div>
-                <div class="temperature-clock">
-                    <span class="material-symbols-outlined">cloud</span>
-                    <p>+20°</p>
-                    <h4>14:00</h4>
-                </div>
-                <div class="temperature-clock">
-                    <span class="material-symbols-outlined">cloud</span>
-                    <p>+20°</p>
-                    <h4>15:00</h4>
-                </div>
-                <div class="temperature-clock">
-                    <span class="material-symbols-outlined">cloud</span>
-                    <p>+20°</p>
-                    <h4>16:00</h4>
-                </div>
-                <div class="temperature-clock">
-                    <span class="material-symbols-outlined">cloud</span>
-                    <p>+20°</p>
-                    <h4>17:00</h4>
-                </div>
-                <div class="temperature-clock">
-                    <span class="material-symbols-outlined">cloud</span>
-                    <p>+20°</p>
-                    <h4>18:00</h4>
-                </div>
-                <div class="temperature-clock">
-                    <span class="material-symbols-outlined">cloud</span>
-                    <p>+20°</p>
-                    <h4>19:00</h4>
-                </div>
-                <div class="temperature-clock">
-                    <span class="material-symbols-outlined">cloud</span>
-                    <p>+20°</p>
-                    <h4>20:00</h4>
-                </div>
-                <div class="temperature-clock">
-                    <span class="material-symbols-outlined">cloudy_snowing</span>
-                    <p>-20°</p>
-                    <h4>NOW</h4>
-                </div>
-                <div class="temperature-clock">
-                    <span class="material-symbols-outlined">cloud</span>
-                    <p>+20°</p>
-                    <h4>22:00</h4>
-                </div>
-                <div class="temperature-clock">
-                    <span class="material-symbols-outlined">cloud</span>
-                    <p>+20°</p>
-                    <h4>23:00</h4>
+                <div class="horizontal-line"></div>
+                <div class="scrolling-line">
+                    <div class="temperature-clock">
+                        <span class="material-symbols-outlined">cloud</span>
+                        <p>+20°</p>
+                        <h4>00:00</h4>
+                    </div>
+                    <div class="temperature-clock">
+                        <span class="material-symbols-outlined">cloud</span>
+                        <p>+20°</p>
+                        <h4>01:00</h4>
+                    </div>
+                    <div class="temperature-clock">
+                        <span class="material-symbols-outlined">cloud</span>
+                        <p>+20°</p>
+                        <h4>02:00</h4>
+                    </div>
+                    <div class="temperature-clock">
+                        <span class="material-symbols-outlined">cloud</span>
+                        <p>+20°</p>
+                        <h4>03:00</h4>
+                    </div>
+                    <div class="temperature-clock">
+                        <span class="material-symbols-outlined">cloud</span>
+                        <p>+20°</p>
+                        <h4>04:00</h4>
+                    </div>
+                    <div class="temperature-clock">
+                        <span class="material-symbols-outlined">cloud</span>
+                        <p>+20°</p>
+                        <h4>05:00</h4>
+                    </div>
+                    <div class="temperature-clock">
+                        <span class="material-symbols-outlined">cloud</span>
+                        <p>+20°</p>
+                        <h4>06:00</h4>
+                    </div>
+                    <div class="temperature-clock">
+                        <span class="material-symbols-outlined">cloud</span>
+                        <p>+20°</p>
+                        <h4>07:00</h4>
+                    </div>
+                    <div class="temperature-clock">
+                        <span class="material-symbols-outlined">cloud</span>
+                        <p>+20°</p>
+                        <h4>08:00</h4>
+                    </div>
+                    <div class="temperature-clock">
+                        <span class="material-symbols-outlined">cloud</span>
+                        <p>+20°</p>
+                        <h4>09:00</h4>
+                    </div>
+                    <div class="temperature-clock">
+                        <span class="material-symbols-outlined">cloud</span>
+                        <p>+20°</p>
+                        <h4>10:00</h4>
+                    </div>
+                    <div class="temperature-clock">
+                        <span class="material-symbols-outlined">cloud</span>
+                        <p>+20°</p>
+                        <h4>11:00</h4>
+                    </div>
+                    <div class="temperature-clock">
+                        <span class="material-symbols-outlined">cloud</span>
+                        <p>+20°</p>
+                        <h4>12:00</h4>
+                    </div>
+                    <div class="temperature-clock">
+                        <span class="material-symbols-outlined">cloud</span>
+                        <p>+20°</p>
+                        <h4>13:00</h4>
+                    </div>
+                    <div class="temperature-clock">
+                        <span class="material-symbols-outlined">cloud</span>
+                        <p>+20°</p>
+                        <h4>14:00</h4>
+                    </div>
+                    <div class="temperature-clock">
+                        <span class="material-symbols-outlined">cloud</span>
+                        <p>+20°</p>
+                        <h4>15:00</h4>
+                    </div>
+                    <div class="temperature-clock">
+                        <span class="material-symbols-outlined">cloud</span>
+                        <p>+20°</p>
+                        <h4>16:00</h4>
+                    </div>
+                    <div class="temperature-clock">
+                        <span class="material-symbols-outlined">cloud</span>
+                        <p>+20°</p>
+                        <h4>17:00</h4>
+                    </div>
+                    <div class="temperature-clock">
+                        <span class="material-symbols-outlined">cloud</span>
+                        <p>+20°</p>
+                        <h4>18:00</h4>
+                    </div>
+                    <div class="temperature-clock">
+                        <span class="material-symbols-outlined">cloud</span>
+                        <p>+20°</p>
+                        <h4>19:00</h4>
+                    </div>
+                    <div class="temperature-clock">
+                        <span class="material-symbols-outlined">cloud</span>
+                        <p>+20°</p>
+                        <h4>20:00</h4>
+                    </div>
+                    <div class="temperature-clock">
+                        <span class="material-symbols-outlined">cloudy_snowing</span>
+                        <p>-20°</p>
+                        <h4>NOW</h4>
+                    </div>
+                    <div class="temperature-clock">
+                        <span class="material-symbols-outlined">cloud</span>
+                        <p>+20°</p>
+                        <h4>22:00</h4>
+                    </div>
+                    <div class="temperature-clock">
+                        <span class="material-symbols-outlined">cloud</span>
+                        <p>+20°</p>
+                        <h4>23:00</h4>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <footer>
+        <div class="content center">
+            <div class="links">
+                <a href="https://github.com/fedotick" target="_blank" rel="noopener noreferrer">
+                    <img src="../assets/images/social-media-icons/github-white.png" alt="GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/fe-dot/" target="_blank" rel="noopener noreferrer">
+                    <img src="../assets/images/social-media-icons/linkedin-white.png" alt="LinkedIn">
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
