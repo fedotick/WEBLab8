@@ -12,7 +12,7 @@
     font-weight: 200;
     font-style: normal;
     text-align: center;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
     background-color: rgb(255, 255, 255);
     transition: transform 0.3s ease-in-out;
 }
@@ -25,6 +25,7 @@
 
 .card:hover {
     transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
 }
 
 .city {
@@ -157,4 +158,8 @@
     margin-top: 12px;
     font-size: 10px;
     font-weight: 400;
+}
+
+.sunny {
+    background: radial-gradient(circle at 100% 0%, rgb(245, 187, 50), rgb(240, 240, 240) 50%);
 }
